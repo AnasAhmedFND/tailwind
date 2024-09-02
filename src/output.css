@@ -730,6 +730,26 @@ video {
   margin-top: 24rem;
 }
 
+.mt-\[40\%\] {
+  margin-top: 40%;
+}
+
+.mt-\[30\%\] {
+  margin-top: 30%;
+}
+
+.mt-\[27\%\] {
+  margin-top: 27%;
+}
+
+.mt-\[25\%\] {
+  margin-top: 25%;
+}
+
+.mt-\[20\%\] {
+  margin-top: 20%;
+}
+
 .flex {
   display: flex;
 }
