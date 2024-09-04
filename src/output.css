@@ -610,6 +610,10 @@ video {
   left: 100px;
 }
 
+.left-\[20px\] {
+  left: 20px;
+}
+
 .left-\[40\%\] {
   left: 40%;
 }
@@ -698,6 +702,10 @@ video {
   margin-left: 15%;
 }
 
+.ml-\[25\%\] {
+  margin-left: 25%;
+}
+
 .ml-\[26\%\] {
   margin-left: 26%;
 }
@@ -716,6 +724,10 @@ video {
 
 .mr-14 {
   margin-right: 3.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
 }
 
 .mr-60 {
@@ -762,6 +774,10 @@ video {
   margin-top: 24rem;
 }
 
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
 .mt-\[18\%\] {
   margin-top: 18%;
 }
@@ -774,12 +790,12 @@ video {
   margin-top: 5%;
 }
 
-.ml-\[25\%\] {
-  margin-left: 25%;
-}
-
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[20\%\] {
@@ -970,6 +986,14 @@ video {
   gap: 1.25rem;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -984,10 +1008,6 @@ video {
 
 .border-8 {
   border-width: 8px;
-}
-
-.border-none {
-  border-style: none;
 }
 
 .border-blue-700 {
@@ -1005,8 +1025,9 @@ video {
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
-.border-\[left-none\] {
-  border-color: left-none;
+.bg-\[\#7335B7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 53 183 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#e08617\] {
@@ -1104,6 +1125,16 @@ video {
   background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#250449\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 4 73 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#380371\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 3 113 / var(--tw-bg-opacity));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1191,12 +1222,12 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-\[16\%\] {
-  padding-top: 16%;
-}
-
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pt-\[16\%\] {
+  padding-top: 16%;
 }
 
 .text-center {
@@ -1285,6 +1316,10 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.hover\:rounded-\[10px\]:hover {
+  border-radius: 10px;
+}
+
 .hover\:border:hover {
   border-width: 1px;
 }
@@ -1304,9 +1339,19 @@ video {
   padding-right: 2.5rem;
 }
 
+.hover\:px-20:hover {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .hover\:py-3:hover {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.hover\:py-5:hover {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .hover\:text-\[\#D0A380\]:hover {
@@ -1314,12 +1359,12 @@ video {
   color: rgb(208 163 128 / var(--tw-text-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:text-orange-400:hover {
   --tw-text-opacity: 1;
   color: rgb(251 146 60 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
