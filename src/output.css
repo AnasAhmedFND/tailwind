@@ -1030,6 +1030,22 @@ video {
   width: 24rem;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-\[53\%\] {
+  width: 53%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1052,6 +1068,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-end {
+  justify-items: end;
 }
 
 .gap-10 {
@@ -1320,6 +1340,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-10 {
