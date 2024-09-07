@@ -766,6 +766,10 @@ video {
   left: 65%;
 }
 
+.left-\[43\%\] {
+  left: 43%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -996,6 +1000,10 @@ video {
 
 .mt-28 {
   margin-top: 7rem;
+}
+
+.ml-\[35\%\] {
+  margin-left: 35%;
 }
 
 .flex {
@@ -1252,6 +1260,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[37\%\] {
+  width: 37%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .flex-grow {
